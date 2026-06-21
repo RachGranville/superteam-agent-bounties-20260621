@@ -1,0 +1,712 @@
+{
+  "schema": "solana-narrative-radar/v1",
+  "generatedAt": "2026-06-21T06:47:21.558Z",
+  "agent": "rachel-codex-agent-20260621033901-middle-31",
+  "dataSources": [
+    "GitHub Search API",
+    "Solana mainnet-beta getRecentPerformanceSamples",
+    "Curated narrative definitions"
+  ],
+  "sourceWarnings": [
+    "GitHub fallback for \"solana ai agent wallet\": 403 rate limit exceeded",
+    "GitHub fallback for \"solana autonomous agent\": 403 rate limit exceeded",
+    "GitHub fallback for \"solana zk privacy\": 403 rate limit exceeded",
+    "GitHub fallback for \"solana depin compute\": 403 rate limit exceeded",
+    "GitHub fallback for \"solana decentralized compute\": 403 rate limit exceeded",
+    "GitHub fallback for \"solana trading bot\": 403 rate limit exceeded",
+    "GitHub fallback for \"solana token 2022\": 403 rate limit exceeded",
+    "GitHub fallback for \"solana confidential transfers\": 403 rate limit exceeded"
+  ],
+  "solanaHealth": {
+    "rpc": "https://api.mainnet-beta.solana.com",
+    "sampleCount": 5,
+    "averageTransactionsPerSecond": 2806,
+    "rawSamples": [
+      {
+        "numNonVoteTransactions": 57825,
+        "numSlots": 155,
+        "numTransactions": 168672,
+        "samplePeriodSecs": 60,
+        "slot": 427889609
+      },
+      {
+        "numNonVoteTransactions": 60767,
+        "numSlots": 150,
+        "numTransactions": 166786,
+        "samplePeriodSecs": 60,
+        "slot": 427889454
+      },
+      {
+        "numNonVoteTransactions": 60408,
+        "numSlots": 154,
+        "numTransactions": 171603,
+        "samplePeriodSecs": 60,
+        "slot": 427889304
+      },
+      {
+        "numNonVoteTransactions": 58694,
+        "numSlots": 152,
+        "numTransactions": 168014,
+        "samplePeriodSecs": 60,
+        "slot": 427889150
+      },
+      {
+        "numNonVoteTransactions": 60151,
+        "numSlots": 150,
+        "numTransactions": 166825,
+        "samplePeriodSecs": 60,
+        "slot": 427888998
+      }
+    ]
+  },
+  "detectedNarratives": [
+    {
+      "id": "trading-automation",
+      "title": "Trading automation for retail power users",
+      "score": 87.49,
+      "whyItMatters": "Retail traders increasingly need real-time interpretation of social, wallet, and liquidity signals.",
+      "signals": {
+        "repoCount": 15,
+        "starSample": 18724,
+        "averageFreshnessDays": 0.5,
+        "networkTps": 2806
+      },
+      "evidence": [
+        {
+          "name": "zhaoxiaoha/github-trending",
+          "description": null,
+          "stars": 0,
+          "forks": 2,
+          "createdAt": "2023-12-17T13:48:41Z",
+          "updatedAt": "2026-06-21T06:46:43Z",
+          "url": "https://github.com/zhaoxiaoha/github-trending",
+          "topics": []
+        },
+        {
+          "name": "NakaSato/gridtokenx-coresystem",
+          "description": null,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2025-11-27T10:36:28Z",
+          "updatedAt": "2026-06-21T06:44:38Z",
+          "url": "https://github.com/NakaSato/gridtokenx-coresystem",
+          "topics": []
+        },
+        {
+          "name": "chainlesschain/chainlesschain",
+          "description": null,
+          "stars": 7,
+          "forks": 5,
+          "createdAt": "2025-12-01T02:28:59Z",
+          "updatedAt": "2026-06-21T06:41:02Z",
+          "url": "https://github.com/chainlesschain/chainlesschain",
+          "topics": []
+        },
+        {
+          "name": "nirholas/three.ws",
+          "description": "Open-source 3D AI agent framework — GLB/glTF avatars with LLM brains, memory, emotions, and autonomous payments. MCP server · x402 · Solana/EVM · Three.js. Embed anywhere as a web component. Character studio, animation gallery, OAuth 2.1. Browser-native.",
+          "stars": 65,
+          "forks": 17,
+          "createdAt": "2026-01-08T20:46:03Z",
+          "updatedAt": "2026-06-21T06:32:39Z",
+          "url": "https://github.com/nirholas/three.ws",
+          "topics": [
+            "3d",
+            "ai-agent",
+            "animation",
+            "avatar",
+            "blockchain",
+            "character-studio",
+            "claude",
+            "embedding",
+            "erc",
+            "gltf",
+            "javascript",
+            "llm",
+            "mcp",
+            "oauth",
+            "onchain",
+            "three-js",
+            "typescript",
+            "vercel",
+            "web-component",
+            "webgl"
+          ]
+        },
+        {
+          "name": "elizaOS/eliza",
+          "description": "Open source agentic operating system",
+          "stars": 18609,
+          "forks": 5559,
+          "createdAt": "2024-07-09T07:55:40Z",
+          "updatedAt": "2026-06-21T06:32:26Z",
+          "url": "https://github.com/elizaOS/eliza",
+          "topics": [
+            "agent",
+            "agentic",
+            "ai",
+            "autonomous",
+            "chatbot",
+            "crypto",
+            "discord",
+            "eliza",
+            "elizaos",
+            "framework",
+            "plugins",
+            "rag",
+            "slack",
+            "swarm",
+            "telegram"
+          ]
+        },
+        {
+          "name": "the911fund/skill-of-skills",
+          "description": "The autonomous discovery engine for AI coding tools. Indexes skills, plugins, MCP servers, agents, and integrations across Claude Code, Codex, Gemini CLI, and more.",
+          "stars": 16,
+          "forks": 5,
+          "createdAt": "2026-01-23T02:43:56Z",
+          "updatedAt": "2026-06-21T06:25:06Z",
+          "url": "https://github.com/the911fund/skill-of-skills",
+          "topics": [
+            "ai-tools",
+            "automation",
+            "claude-code",
+            "discovery-engine",
+            "mcp-servers",
+            "n8n",
+            "open-source",
+            "plugins",
+            "skills"
+          ]
+        },
+        {
+          "name": "gunjanjaswal/Awesome-Public-Free-Apis",
+          "description": "🌐 Awesome Public APIs: A self-updating collection of free APIs for developers. Automatically discovers and tracks popular APIs across 40+ categories. Features verified endpoints, comprehensive details (auth, CORS, HTTPS), and community contributions. Star to stay updated!",
+          "stars": 7,
+          "forks": 2,
+          "createdAt": "2025-09-07T12:11:20Z",
+          "updatedAt": "2026-06-21T06:23:41Z",
+          "url": "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+          "topics": [
+            "api",
+            "api-rest",
+            "free",
+            "freeapi"
+          ]
+        },
+        {
+          "name": "front-deploy/frontdeploy",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-17T03:33:52Z",
+          "updatedAt": "2026-06-21T06:20:03Z",
+          "url": "https://github.com/front-deploy/frontdeploy",
+          "topics": []
+        }
+      ],
+      "buildIdeas": [
+        "A safety-first copy-trading rule builder that rejects thin-liquidity or high-tax token routes.",
+        "A caller-quality index that scores social accounts using historical token outcomes and wallet flow.",
+        "A portfolio sentinel that alerts when a wallet's positions become crowded across overlapping narratives."
+      ]
+    },
+    {
+      "id": "zk-privacy",
+      "title": "ZK privacy and private execution",
+      "score": 73.51,
+      "whyItMatters": "High-throughput DeFi increases the need for selective disclosure, private order flow, and verifiable computation.",
+      "signals": {
+        "repoCount": 14,
+        "starSample": 118,
+        "averageFreshnessDays": 0.5,
+        "networkTps": 2806
+      },
+      "evidence": [
+        {
+          "name": "zhaoxiaoha/github-trending",
+          "description": null,
+          "stars": 0,
+          "forks": 2,
+          "createdAt": "2023-12-17T13:48:41Z",
+          "updatedAt": "2026-06-21T06:46:43Z",
+          "url": "https://github.com/zhaoxiaoha/github-trending",
+          "topics": []
+        },
+        {
+          "name": "Xaxxoo/cheese",
+          "description": "www.cheesepay.xyz",
+          "stars": 0,
+          "forks": 4,
+          "createdAt": "2025-12-23T21:57:58Z",
+          "updatedAt": "2026-06-21T06:39:27Z",
+          "url": "https://github.com/Xaxxoo/cheese",
+          "topics": []
+        },
+        {
+          "name": "galaxiaalphanet/Alpha-Network",
+          "description": "The first blockchain built for AI agents. Proof of Intelligence. 500ms finality. Zero pre-mine.",
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-05-11T14:16:24Z",
+          "updatedAt": "2026-06-21T06:38:05Z",
+          "url": "https://github.com/galaxiaalphanet/Alpha-Network",
+          "topics": [
+            "ai-agents",
+            "blockchain",
+            "cryptocurrency",
+            "golang",
+            "proof-of-intelligence",
+            "solana",
+            "web3"
+          ]
+        },
+        {
+          "name": "chopmob-cloud/algovoi-jcs-conformance-vectors",
+          "description": "Conformance vector sets for JCS RFC 8785 canonicalisation across x402, AP2, A2A, MPP receipt anchor sets. Cross-validated across eight independent JCS implementations in eight languages.",
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-23T17:25:10Z",
+          "updatedAt": "2026-06-21T06:37:43Z",
+          "url": "https://github.com/chopmob-cloud/algovoi-jcs-conformance-vectors",
+          "topics": []
+        },
+        {
+          "name": "nirholas/three.ws",
+          "description": "Open-source 3D AI agent framework — GLB/glTF avatars with LLM brains, memory, emotions, and autonomous payments. MCP server · x402 · Solana/EVM · Three.js. Embed anywhere as a web component. Character studio, animation gallery, OAuth 2.1. Browser-native.",
+          "stars": 65,
+          "forks": 17,
+          "createdAt": "2026-01-08T20:46:03Z",
+          "updatedAt": "2026-06-21T06:32:39Z",
+          "url": "https://github.com/nirholas/three.ws",
+          "topics": [
+            "3d",
+            "ai-agent",
+            "animation",
+            "avatar",
+            "blockchain",
+            "character-studio",
+            "claude",
+            "embedding",
+            "erc",
+            "gltf",
+            "javascript",
+            "llm",
+            "mcp",
+            "oauth",
+            "onchain",
+            "three-js",
+            "typescript",
+            "vercel",
+            "web-component",
+            "webgl"
+          ]
+        },
+        {
+          "name": "sip-protocol/sip-arcium-program",
+          "description": "Arcium MPC program for SIP Protocol - Confidential transfers, balance checks, and swap validation",
+          "stars": 2,
+          "forks": 0,
+          "createdAt": "2026-01-29T02:04:17Z",
+          "updatedAt": "2026-06-21T06:31:26Z",
+          "url": "https://github.com/sip-protocol/sip-arcium-program",
+          "topics": []
+        },
+        {
+          "name": "the911fund/skill-of-skills",
+          "description": "The autonomous discovery engine for AI coding tools. Indexes skills, plugins, MCP servers, agents, and integrations across Claude Code, Codex, Gemini CLI, and more.",
+          "stars": 16,
+          "forks": 5,
+          "createdAt": "2026-01-23T02:43:56Z",
+          "updatedAt": "2026-06-21T06:25:06Z",
+          "url": "https://github.com/the911fund/skill-of-skills",
+          "topics": [
+            "ai-tools",
+            "automation",
+            "claude-code",
+            "discovery-engine",
+            "mcp-servers",
+            "n8n",
+            "open-source",
+            "plugins",
+            "skills"
+          ]
+        },
+        {
+          "name": "gunjanjaswal/Awesome-Public-Free-Apis",
+          "description": "🌐 Awesome Public APIs: A self-updating collection of free APIs for developers. Automatically discovers and tracks popular APIs across 40+ categories. Features verified endpoints, comprehensive details (auth, CORS, HTTPS), and community contributions. Star to stay updated!",
+          "stars": 7,
+          "forks": 2,
+          "createdAt": "2025-09-07T12:11:20Z",
+          "updatedAt": "2026-06-21T06:23:41Z",
+          "url": "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+          "topics": [
+            "api",
+            "api-rest",
+            "free",
+            "freeapi"
+          ]
+        }
+      ],
+      "buildIdeas": [
+        "A privacy-preserving RFQ proof layer that lets market makers prove quote constraints without revealing inventory.",
+        "A ZK compliance receipt for wallets that proves policy checks without exposing full transaction history.",
+        "A developer dashboard that tracks privacy-related Solana repos, proof systems, and audit status."
+      ]
+    },
+    {
+      "id": "token-extensions",
+      "title": "Token-2022 and programmable asset primitives",
+      "score": 65.16,
+      "whyItMatters": "Token extensions move compliance, royalties, transfer logic, and metadata closer to asset infrastructure.",
+      "signals": {
+        "repoCount": 10,
+        "starSample": 97,
+        "averageFreshnessDays": 0.7,
+        "networkTps": 2806
+      },
+      "evidence": [
+        {
+          "name": "solana-program/token-2022",
+          "description": "Fallback repository seed used when live API access is unavailable.",
+          "stars": 10,
+          "forks": 1,
+          "createdAt": "2025-01-01T00:00:00Z",
+          "updatedAt": "2026-06-21T06:47:21.557Z",
+          "url": "https://github.com/solana-program/token-2022",
+          "topics": [
+            "solana"
+          ]
+        },
+        {
+          "name": "solana-labs/solana-program-library",
+          "description": "Fallback repository seed used when live API access is unavailable.",
+          "stars": 9,
+          "forks": 1,
+          "createdAt": "2025-01-01T00:00:00Z",
+          "updatedAt": "2026-06-14T06:47:21.557Z",
+          "url": "https://github.com/solana-labs/solana-program-library",
+          "topics": [
+            "solana"
+          ]
+        },
+        {
+          "name": "open-rails/authkit",
+          "description": null,
+          "stars": 3,
+          "forks": 1,
+          "createdAt": "2025-11-15T05:34:45Z",
+          "updatedAt": "2026-06-21T06:47:06Z",
+          "url": "https://github.com/open-rails/authkit",
+          "topics": []
+        },
+        {
+          "name": "zhaoxiaoha/github-trending",
+          "description": null,
+          "stars": 0,
+          "forks": 2,
+          "createdAt": "2023-12-17T13:48:41Z",
+          "updatedAt": "2026-06-21T06:46:43Z",
+          "url": "https://github.com/zhaoxiaoha/github-trending",
+          "topics": []
+        },
+        {
+          "name": "Haustorium12/gold-402",
+          "description": "⚡ The gold standard for x402 resources. 300+ projects, SDKs, tools, facilitators, and ecosystem data for the HTTP 402 Payment Required protocol. Curated by 24K Labs.",
+          "stars": 3,
+          "forks": 6,
+          "createdAt": "2026-03-31T19:16:10Z",
+          "updatedAt": "2026-06-21T06:46:24Z",
+          "url": "https://github.com/Haustorium12/gold-402",
+          "topics": [
+            "ai-agents",
+            "api-monetization",
+            "awesome-list",
+            "base",
+            "blockchain",
+            "coinbase",
+            "crypto",
+            "http-402",
+            "mcp",
+            "micropayments",
+            "usdc",
+            "web3",
+            "x402"
+          ]
+        },
+        {
+          "name": "chainlesschain/chainlesschain",
+          "description": null,
+          "stars": 7,
+          "forks": 5,
+          "createdAt": "2025-12-01T02:28:59Z",
+          "updatedAt": "2026-06-21T06:41:02Z",
+          "url": "https://github.com/chainlesschain/chainlesschain",
+          "topics": []
+        },
+        {
+          "name": "Asadlee24/arcshift-usdc-bridge",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-01T12:46:09Z",
+          "updatedAt": "2026-06-21T06:39:32Z",
+          "url": "https://github.com/Asadlee24/arcshift-usdc-bridge",
+          "topics": []
+        },
+        {
+          "name": "Pritam-deb/Aegis",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-08T04:59:26Z",
+          "updatedAt": "2026-06-21T06:33:37Z",
+          "url": "https://github.com/Pritam-deb/Aegis",
+          "topics": []
+        }
+      ],
+      "buildIdeas": [
+        "A Token-2022 policy linter that explains transfer hooks and extension risks before integration.",
+        "A sandbox for founders to model loyalty points, credentials, and access passes with non-transferable tokens.",
+        "A compliance-friendly asset dashboard that tracks extension configuration drift across deployments."
+      ]
+    },
+    {
+      "id": "agent-commerce",
+      "title": "Agent-native commerce and autonomous wallets",
+      "score": 65.08,
+      "whyItMatters": "AI agents need cheap, fast settlement for tool calls, rewards, and delegated execution.",
+      "signals": {
+        "repoCount": 10,
+        "starSample": 94,
+        "averageFreshnessDays": 0.7,
+        "networkTps": 2806
+      },
+      "evidence": [
+        {
+          "name": "solana-foundation/awesome-solana-ai",
+          "description": "Fallback repository seed used when live API access is unavailable.",
+          "stars": 10,
+          "forks": 1,
+          "createdAt": "2025-01-01T00:00:00Z",
+          "updatedAt": "2026-06-21T06:47:21.292Z",
+          "url": "https://github.com/solana-foundation/awesome-solana-ai",
+          "topics": [
+            "solana"
+          ]
+        },
+        {
+          "name": "solana-labs/solana-pay",
+          "description": "Fallback repository seed used when live API access is unavailable.",
+          "stars": 9,
+          "forks": 1,
+          "createdAt": "2025-01-01T00:00:00Z",
+          "updatedAt": "2026-06-14T06:47:21.292Z",
+          "url": "https://github.com/solana-labs/solana-pay",
+          "topics": [
+            "solana"
+          ]
+        },
+        {
+          "name": "zhaoxiaoha/github-trending",
+          "description": null,
+          "stars": 0,
+          "forks": 2,
+          "createdAt": "2023-12-17T13:48:41Z",
+          "updatedAt": "2026-06-21T06:46:43Z",
+          "url": "https://github.com/zhaoxiaoha/github-trending",
+          "topics": []
+        },
+        {
+          "name": "Haustorium12/gold-402",
+          "description": "⚡ The gold standard for x402 resources. 300+ projects, SDKs, tools, facilitators, and ecosystem data for the HTTP 402 Payment Required protocol. Curated by 24K Labs.",
+          "stars": 3,
+          "forks": 6,
+          "createdAt": "2026-03-31T19:16:10Z",
+          "updatedAt": "2026-06-21T06:46:24Z",
+          "url": "https://github.com/Haustorium12/gold-402",
+          "topics": [
+            "ai-agents",
+            "api-monetization",
+            "awesome-list",
+            "base",
+            "blockchain",
+            "coinbase",
+            "crypto",
+            "http-402",
+            "mcp",
+            "micropayments",
+            "usdc",
+            "web3",
+            "x402"
+          ]
+        },
+        {
+          "name": "NUCS394-S2026-2/tribe-y",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-04-29T21:43:11Z",
+          "updatedAt": "2026-06-21T06:45:25Z",
+          "url": "https://github.com/NUCS394-S2026-2/tribe-y",
+          "topics": []
+        },
+        {
+          "name": "chainlesschain/chainlesschain",
+          "description": null,
+          "stars": 7,
+          "forks": 5,
+          "createdAt": "2025-12-01T02:28:59Z",
+          "updatedAt": "2026-06-21T06:41:02Z",
+          "url": "https://github.com/chainlesschain/chainlesschain",
+          "topics": []
+        },
+        {
+          "name": "chopmob-cloud/algovoi-jcs-conformance-vectors",
+          "description": "Conformance vector sets for JCS RFC 8785 canonicalisation across x402, AP2, A2A, MPP receipt anchor sets. Cross-validated across eight independent JCS implementations in eight languages.",
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-23T17:25:10Z",
+          "updatedAt": "2026-06-21T06:37:43Z",
+          "url": "https://github.com/chopmob-cloud/algovoi-jcs-conformance-vectors",
+          "topics": []
+        },
+        {
+          "name": "kaksv/Shamba-sync",
+          "description": "A WhatsApp-native, multimodal AI assistant that empowers smallholder African farmers to diagnose crop diseases and optimize market sales using just voice notes and photos.",
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-19T08:41:16Z",
+          "updatedAt": "2026-06-21T06:34:30Z",
+          "url": "https://github.com/kaksv/Shamba-sync",
+          "topics": []
+        }
+      ],
+      "buildIdeas": [
+        "An agent wallet policy engine that caps daily spend, allowed programs, and memo metadata for autonomous tasks.",
+        "A marketplace where agents post verifiable work receipts and receive micro-payments after deterministic checks.",
+        "A wallet simulator that replays planned agent transactions against devnet before a human grants an allowance."
+      ]
+    },
+    {
+      "id": "depin-compute",
+      "title": "DePIN compute at the edge",
+      "score": 61.82,
+      "whyItMatters": "Solana's low fees make frequent reward settlement plausible for small compute contributions.",
+      "signals": {
+        "repoCount": 10,
+        "starSample": 28,
+        "averageFreshnessDays": 0.9,
+        "networkTps": 2806
+      },
+      "evidence": [
+        {
+          "name": "helium/helium-program-library",
+          "description": "Fallback repository seed used when live API access is unavailable.",
+          "stars": 10,
+          "forks": 1,
+          "createdAt": "2025-01-01T00:00:00Z",
+          "updatedAt": "2026-06-21T06:47:21.415Z",
+          "url": "https://github.com/helium/helium-program-library",
+          "topics": [
+            "solana"
+          ]
+        },
+        {
+          "name": "hivemapper/solana-programs",
+          "description": "Fallback repository seed used when live API access is unavailable.",
+          "stars": 9,
+          "forks": 1,
+          "createdAt": "2025-01-01T00:00:00Z",
+          "updatedAt": "2026-06-14T06:47:21.415Z",
+          "url": "https://github.com/hivemapper/solana-programs",
+          "topics": [
+            "solana"
+          ]
+        },
+        {
+          "name": "airtkey/airtkey",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-20T08:30:25Z",
+          "updatedAt": "2026-06-21T06:46:07Z",
+          "url": "https://github.com/airtkey/airtkey",
+          "topics": []
+        },
+        {
+          "name": "JarrodLambert/Github-Shooting-Stars",
+          "description": "A More Organised Way To View My Github Stars",
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2024-09-21T00:29:02Z",
+          "updatedAt": "2026-06-21T05:25:19Z",
+          "url": "https://github.com/JarrodLambert/Github-Shooting-Stars",
+          "topics": []
+        },
+        {
+          "name": "chuhemiao/portfolio",
+          "description": "Thoughts, Research,  Investing,  Economics, Philosophy.",
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2024-10-04T14:34:18Z",
+          "updatedAt": "2026-06-21T04:16:55Z",
+          "url": "https://github.com/chuhemiao/portfolio",
+          "topics": []
+        },
+        {
+          "name": "msrovani/SKYNET",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-07T23:09:15Z",
+          "updatedAt": "2026-06-21T02:14:19Z",
+          "url": "https://github.com/msrovani/SKYNET",
+          "topics": []
+        },
+        {
+          "name": "tsirysndr/my-awesome-stars",
+          "description": "A curated list of my Github stars! ✨",
+          "stars": 8,
+          "forks": 1,
+          "createdAt": "2024-05-15T05:45:47Z",
+          "updatedAt": "2026-06-21T01:42:46Z",
+          "url": "https://github.com/tsirysndr/my-awesome-stars",
+          "topics": []
+        },
+        {
+          "name": "Alchemyst0x/awesome-stars",
+          "description": "A curated list of my GitHub stars! Generated by https://github.com/maguowei/starred. WARNING: Sometimes I star malicious things to keep a bookmark of them. GL HF DD.",
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-04T21:49:46Z",
+          "updatedAt": "2026-06-21T01:38:17Z",
+          "url": "https://github.com/Alchemyst0x/awesome-stars",
+          "topics": []
+        }
+      ],
+      "buildIdeas": [
+        "A mobile compute contribution receipt protocol with batched Solana settlement.",
+        "A scheduler that prices AI inference tasks across DePIN compute pools using on-chain reputation.",
+        "A reputation explorer for DePIN operators that combines uptime proofs, reward history, and stake signals."
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "title": "Trading automation for retail power users",
+      "score": 87.49,
+      "firstIdea": "A safety-first copy-trading rule builder that rejects thin-liquidity or high-tax token routes."
+    },
+    {
+      "title": "ZK privacy and private execution",
+      "score": 73.51,
+      "firstIdea": "A privacy-preserving RFQ proof layer that lets market makers prove quote constraints without revealing inventory."
+    },
+    {
+      "title": "Token-2022 and programmable asset primitives",
+      "score": 65.16,
+      "firstIdea": "A Token-2022 policy linter that explains transfer hooks and extension risks before integration."
+    }
+  ]
+}

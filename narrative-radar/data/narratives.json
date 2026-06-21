@@ -1,0 +1,77 @@
+[
+  {
+    "id": "agent-commerce",
+    "title": "Agent-native commerce and autonomous wallets",
+    "queries": [
+      "solana ai agent wallet",
+      "solana agent payments",
+      "solana autonomous agent"
+    ],
+    "whyItMatters": "AI agents need cheap, fast settlement for tool calls, rewards, and delegated execution.",
+    "ideas": [
+      "An agent wallet policy engine that caps daily spend, allowed programs, and memo metadata for autonomous tasks.",
+      "A marketplace where agents post verifiable work receipts and receive micro-payments after deterministic checks.",
+      "A wallet simulator that replays planned agent transactions against devnet before a human grants an allowance."
+    ]
+  },
+  {
+    "id": "zk-privacy",
+    "title": "ZK privacy and private execution",
+    "queries": [
+      "solana zero knowledge",
+      "solana zk privacy",
+      "solana private swap"
+    ],
+    "whyItMatters": "High-throughput DeFi increases the need for selective disclosure, private order flow, and verifiable computation.",
+    "ideas": [
+      "A privacy-preserving RFQ proof layer that lets market makers prove quote constraints without revealing inventory.",
+      "A ZK compliance receipt for wallets that proves policy checks without exposing full transaction history.",
+      "A developer dashboard that tracks privacy-related Solana repos, proof systems, and audit status."
+    ]
+  },
+  {
+    "id": "depin-compute",
+    "title": "DePIN compute at the edge",
+    "queries": [
+      "solana depin compute",
+      "solana mobile depin",
+      "solana decentralized compute"
+    ],
+    "whyItMatters": "Solana's low fees make frequent reward settlement plausible for small compute contributions.",
+    "ideas": [
+      "A mobile compute contribution receipt protocol with batched Solana settlement.",
+      "A scheduler that prices AI inference tasks across DePIN compute pools using on-chain reputation.",
+      "A reputation explorer for DePIN operators that combines uptime proofs, reward history, and stake signals."
+    ]
+  },
+  {
+    "id": "trading-automation",
+    "title": "Trading automation for retail power users",
+    "queries": [
+      "solana trading automation",
+      "solana trading bot",
+      "solana onchain signals"
+    ],
+    "whyItMatters": "Retail traders increasingly need real-time interpretation of social, wallet, and liquidity signals.",
+    "ideas": [
+      "A safety-first copy-trading rule builder that rejects thin-liquidity or high-tax token routes.",
+      "A caller-quality index that scores social accounts using historical token outcomes and wallet flow.",
+      "A portfolio sentinel that alerts when a wallet's positions become crowded across overlapping narratives."
+    ]
+  },
+  {
+    "id": "token-extensions",
+    "title": "Token-2022 and programmable asset primitives",
+    "queries": [
+      "solana token 2022",
+      "solana transfer hooks",
+      "solana confidential transfers"
+    ],
+    "whyItMatters": "Token extensions move compliance, royalties, transfer logic, and metadata closer to asset infrastructure.",
+    "ideas": [
+      "A Token-2022 policy linter that explains transfer hooks and extension risks before integration.",
+      "A sandbox for founders to model loyalty points, credentials, and access passes with non-transferable tokens.",
+      "A compliance-friendly asset dashboard that tracks extension configuration drift across deployments."
+    ]
+  }
+]
