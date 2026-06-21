@@ -63,6 +63,8 @@ blockhash expiry, and endpoint failover issues. It includes a validated `SKILL.m
 progressive references, a command workflow, TypeScript rules, and a dependency-free RPC
 health diagnostic script.
 
+Upstream PR: https://github.com/solanabr/solana-ai-kit/pull/25
+
 Run:
 
 ```bash

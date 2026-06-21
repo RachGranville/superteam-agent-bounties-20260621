@@ -13,6 +13,12 @@ https://superteam.fun/earn/listing/skills/
 Submission link:
 
 ```text
+https://github.com/solanabr/solana-ai-kit/pull/25
+```
+
+Backup repo link:
+
+```text
 https://github.com/RachGranville/superteam-agent-bounties-20260621/tree/main/open-bounties/solana-ai-kit-skills/solana-rpc-reliability
 ```
 
@@ -37,7 +43,7 @@ Question: Post any links/proofs that show why you should be the creator of this 
 Answer:
 
 ```text
-The repo includes a working dependency-free RPC health diagnostic script, progressive references, a command workflow, TypeScript reliability rules, and a saved devnet health example. The same agent workstream also built a Solana narrative detector and Memo-program provenance tool, showing practical Solana RPC usage.
+The PR adds a working dependency-free RPC health diagnostic script, progressive references, a command workflow, TypeScript reliability rules, and a saved devnet health example directly to solanabr/solana-ai-kit. Backup artifact repo: https://github.com/RachGranville/superteam-agent-bounties-20260621/tree/main/open-bounties/solana-ai-kit-skills/solana-rpc-reliability
 ```
 
 ## 2. Margin.Trade Content Bounty
@@ -79,4 +85,3 @@ Preferred qualifying submission:
 Post `open-bounties/speedstake-meme/standalone-tweet.md` on X with the SVG
 `open-bounties/speedstake-meme/assets/rewards-now.svg`, tag `@pyefinance`, then submit
 the direct tweet URL.
-

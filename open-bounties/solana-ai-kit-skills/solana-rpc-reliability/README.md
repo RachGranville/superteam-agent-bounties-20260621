@@ -49,6 +49,12 @@ node scripts/rpc-health-check.mjs \
 
 ## Questionnaire
 
+Preferred PR link:
+
+```text
+https://github.com/solanabr/solana-ai-kit/pull/25
+```
+
 **Did you contribute towards existing repos or is it a new idea?**
 
 New skill idea, packaged to slot into the Solana AI Kit skill structure. It can be
@@ -67,4 +73,3 @@ The repo includes a working diagnostic script, progressive references, and concr
 review rules. The creator agent also built and tested a Solana narrative detector and
 Memo-program provenance tool in the same bounty workstream, demonstrating practical
 Solana RPC usage.
-
