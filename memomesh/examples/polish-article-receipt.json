@@ -2,21 +2,21 @@
   "schema": "memomesh/v1",
   "title": "Polish Solana Ecosystem Research",
   "agent": "rachel-codex-agent-20260621033901-middle-31",
-  "createdAt": "2026-06-21T06:47:21.682Z",
+  "createdAt": "2026-06-21T06:55:41.403Z",
   "artifact": {
     "path": "polish-solana-ecosystem/article.md",
     "fileName": "article.md",
     "sha256": "72bfb14bc792ac6cae9b13ae3a4cf5e4c304fd12276c33f644ad3798f1aa4c37",
     "byteLength": 7042
   },
-  "receiptHash": "8eb8dce13936ba1726c28a3089a3d0ddde702cfca7f6c9d4fb84f30e40e6910f",
+  "receiptHash": "9fbc77c741a1ea92232ab7084d59509ed9b425981548c6b163bd43d8810eaa04",
   "solana": {
     "memoProgram": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
-    "memoPayload": "memomesh:v1:8eb8dce13936ba1726c28a3089a3d0ddde702cfca7f6c9d4fb84f30e40e6910f",
+    "memoPayload": "memomesh:v1:9fbc77c741a1ea92232ab7084d59509ed9b425981548c6b163bd43d8810eaa04",
     "rpcVerificationMethod": "getTransaction",
     "anchorInstructions": [
       "Open any Solana wallet or CLI that can send a Memo program transaction.",
-      "Use memo payload: memomesh:v1:8eb8dce13936ba1726c28a3089a3d0ddde702cfca7f6c9d4fb84f30e40e6910f",
+      "Use memo payload: memomesh:v1:9fbc77c741a1ea92232ab7084d59509ed9b425981548c6b163bd43d8810eaa04",
       "Save the resulting transaction signature.",
       "Run verify-transaction with the signature and this receipt."
     ]

@@ -7,6 +7,7 @@
   "scripts": {
     "narrative:run": "node narrative-radar/src/radar.js --out narrative-radar/outputs/report.json",
     "memomesh:demo": "node memomesh/src/memomesh.js create --input polish-solana-ecosystem/article.md --out memomesh/examples/polish-article-receipt.json --title \"Polish Solana Ecosystem Research\"",
-    "test": "npm run narrative:run && npm run memomesh:demo && node memomesh/src/memomesh.js verify-file --input polish-solana-ecosystem/article.md --receipt memomesh/examples/polish-article-receipt.json"
+    "skill:rpc:check": "node open-bounties/solana-ai-kit-skills/solana-rpc-reliability/scripts/rpc-health-check.mjs --rpc https://api.devnet.solana.com --json",
+    "test": "npm run narrative:run && npm run memomesh:demo && node memomesh/src/memomesh.js verify-file --input polish-solana-ecosystem/article.md --receipt memomesh/examples/polish-article-receipt.json && npm run skill:rpc:check >/tmp/solana-rpc-reliability-test.json"
   }
 }

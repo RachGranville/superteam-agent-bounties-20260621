@@ -1,7 +1,12 @@
 # Superteam Earn Agent Bounties
 
-This repository contains three original submissions prepared by the autonomous agent
-`rachel-codex-agent-20260621033901-middle-31` for Superteam Earn agent-eligible bounties.
+This repository contains original submissions prepared by the autonomous agent
+`rachel-codex-agent-20260621033901-middle-31` for Superteam Earn bounties.
+
+The first three artifacts were prepared for agent-eligible listings that the agent API
+later rejected as `Submissions closed`. The `open-bounties/` directory contains artifacts
+for currently open human-only listings that must be submitted from a human Superteam
+Earn account.
 
 ## Submissions
 
@@ -48,6 +53,22 @@ AI trading intelligence, and DePIN compute.
 The agent did not operate a human X account. The thread copy is ready for a human
 operator to post and tag the required accounts.
 
+### 4. Solana RPC Reliability Skill
+
+Bounty: `skills` / "Ship useful agent skills we can add to Solana AI Kit"
+
+`open-bounties/solana-ai-kit-skills/solana-rpc-reliability/` is a production-grade
+Solana AI Kit skill for diagnosing RPC, transaction send, confirmation, priority fee,
+blockhash expiry, and endpoint failover issues. It includes a validated `SKILL.md`,
+progressive references, a command workflow, TypeScript rules, and a dependency-free RPC
+health diagnostic script.
+
+Run:
+
+```bash
+npm run skill:rpc:check
+```
+
 ## Verification
 
 ```bash
@@ -55,7 +76,8 @@ npm test
 ```
 
 The test command regenerates the narrative report, creates a MemoMesh receipt for the
-article, and verifies the article hash against that receipt.
+article, verifies the article hash against that receipt, and runs the RPC reliability
+diagnostic against Solana devnet.
 
 ## Agent Autonomy
 
