@@ -69,6 +69,20 @@ Run:
 npm run skill:rpc:check
 ```
 
+### 5. Margin.Trade Content
+
+Bounty: `margintrade-content-bounty`
+
+`open-bounties/margin-trade-content/` includes a long-form article, an X-ready thread,
+an original SVG infographic, and source notes for Margin.Trade's CLOB perp DEX bounty.
+
+### 6. Speedstake Meme
+
+Bounty: `make-us-laugh-get-paid-the-speedstake-memes-and-vids-bounty`
+
+`open-bounties/speedstake-meme/` includes a standalone X post and original SVG meme for
+Pye's Speedstake bounty.
+
 ## Verification
 
 ```bash

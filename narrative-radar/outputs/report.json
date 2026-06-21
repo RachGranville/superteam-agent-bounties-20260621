@@ -1,6 +1,6 @@
 {
   "schema": "solana-narrative-radar/v1",
-  "generatedAt": "2026-06-21T06:55:41.298Z",
+  "generatedAt": "2026-06-21T06:58:43.767Z",
   "agent": "rachel-codex-agent-20260621033901-middle-31",
   "dataSources": [
     "GitHub Search API",
@@ -15,42 +15,42 @@
   "solanaHealth": {
     "rpc": "https://api.mainnet-beta.solana.com",
     "sampleCount": 5,
-    "averageTransactionsPerSecond": 2715,
+    "averageTransactionsPerSecond": 2703,
     "rawSamples": [
       {
-        "numNonVoteTransactions": 57274,
-        "numSlots": 151,
-        "numTransactions": 165565,
+        "numNonVoteTransactions": 58580,
+        "numSlots": 146,
+        "numTransactions": 163944,
         "samplePeriodSecs": 60,
-        "slot": 427890807
+        "slot": 427891319
       },
       {
-        "numNonVoteTransactions": 48642,
-        "numSlots": 144,
-        "numTransactions": 151861,
+        "numNonVoteTransactions": 55400,
+        "numSlots": 150,
+        "numTransactions": 162003,
         "samplePeriodSecs": 60,
-        "slot": 427890656
+        "slot": 427891173
       },
       {
-        "numNonVoteTransactions": 59244,
+        "numNonVoteTransactions": 55232,
         "numSlots": 153,
-        "numTransactions": 168903,
+        "numTransactions": 165653,
         "samplePeriodSecs": 60,
-        "slot": 427890512
+        "slot": 427891023
       },
       {
-        "numNonVoteTransactions": 56044,
-        "numSlots": 150,
-        "numTransactions": 162842,
+        "numNonVoteTransactions": 54176,
+        "numSlots": 151,
+        "numTransactions": 162151,
         "samplePeriodSecs": 60,
-        "slot": 427890359
+        "slot": 427890870
       },
       {
-        "numNonVoteTransactions": 58018,
-        "numSlots": 150,
-        "numTransactions": 165288,
+        "numNonVoteTransactions": 54023,
+        "numSlots": 145,
+        "numTransactions": 157261,
         "samplePeriodSecs": 60,
-        "slot": 427890209
+        "slot": 427890719
       }
     ]
   },
@@ -58,15 +58,91 @@
     {
       "id": "agent-commerce",
       "title": "Agent-native commerce and autonomous wallets",
-      "score": 87.31,
+      "score": 85.33,
       "whyItMatters": "AI agents need cheap, fast settlement for tool calls, rewards, and delegated execution.",
       "signals": {
-        "repoCount": 15,
-        "starSample": 18970,
+        "repoCount": 14,
+        "starSample": 19016,
         "averageFreshnessDays": 0,
-        "networkTps": 2715
+        "networkTps": 2703
       },
       "evidence": [
+        {
+          "name": "Rodert/awesome-mcp",
+          "description": "A curated list of MCP servers and related resources.",
+          "stars": 9,
+          "forks": 10,
+          "createdAt": "2025-11-22T02:26:01Z",
+          "updatedAt": "2026-06-21T06:58:15Z",
+          "url": "https://github.com/Rodert/awesome-mcp",
+          "topics": []
+        },
+        {
+          "name": "mancer-s1-team-3/unified-flow",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-02T14:21:02Z",
+          "updatedAt": "2026-06-21T06:57:53Z",
+          "url": "https://github.com/mancer-s1-team-3/unified-flow",
+          "topics": []
+        },
+        {
+          "name": "shieldspprt/solhunt-recovery",
+          "description": "SolHunt — Recover forgotten SOL from your wallet. Clean NFTs, sweep dust, and reclaim rent.",
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-03-05T10:11:22Z",
+          "updatedAt": "2026-06-21T06:57:21Z",
+          "url": "https://github.com/shieldspprt/solhunt-recovery",
+          "topics": [
+            "ai-agent",
+            "defi",
+            "eliza",
+            "jito",
+            "mcp",
+            "mcp-server",
+            "mev",
+            "netlify",
+            "priority-fee",
+            "reclaim-sol",
+            "recovery",
+            "solana",
+            "typescript",
+            "wallet-intelligence"
+          ]
+        },
+        {
+          "name": "phishdestroy/trustname-evidence",
+          "description": "Phase II evidence package: complete-zone scan of ICANN registrar #4318 Trustname.com / Fewmoretaps OÜ — 7,641 domains,   86% of active content confirmed malicious.",
+          "stars": 37,
+          "forks": 0,
+          "createdAt": "2026-06-11T00:54:35Z",
+          "updatedAt": "2026-06-21T06:57:21Z",
+          "url": "https://github.com/phishdestroy/trustname-evidence",
+          "topics": [
+            "blocklist",
+            "bulletproof",
+            "fewmoretaps",
+            "icann",
+            "icann-4318",
+            "ioc",
+            "phishdestroy",
+            "phishing",
+            "registrar-abuse",
+            "trustname"
+          ]
+        },
+        {
+          "name": "RachGranville/superteam-agent-bounties-20260621",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-21T06:47:35Z",
+          "updatedAt": "2026-06-21T06:55:54Z",
+          "url": "https://github.com/RachGranville/superteam-agent-bounties-20260621",
+          "topics": []
+        },
         {
           "name": "chainlesschain/chainlesschain",
           "description": null,
@@ -96,78 +172,6 @@
           "updatedAt": "2026-06-21T06:51:55Z",
           "url": "https://github.com/csmthy/kintara",
           "topics": []
-        },
-        {
-          "name": "Daisuke134/anicca",
-          "description": "self funding buddhist ai",
-          "stars": 1,
-          "forks": 0,
-          "createdAt": "2026-05-24T07:43:10Z",
-          "updatedAt": "2026-06-21T06:50:46Z",
-          "url": "https://github.com/Daisuke134/anicca",
-          "topics": []
-        },
-        {
-          "name": "galaxiaalphanet/Alpha-Network",
-          "description": "The first blockchain built for AI agents. Proof of Intelligence. 500ms finality. Zero pre-mine.",
-          "stars": 1,
-          "forks": 0,
-          "createdAt": "2026-05-11T14:16:24Z",
-          "updatedAt": "2026-06-21T06:48:37Z",
-          "url": "https://github.com/galaxiaalphanet/Alpha-Network",
-          "topics": [
-            "ai-agents",
-            "blockchain",
-            "cryptocurrency",
-            "golang",
-            "proof-of-intelligence",
-            "solana",
-            "web3"
-          ]
-        },
-        {
-          "name": "RachGranville/superteam-agent-bounties-20260621",
-          "description": null,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-06-21T06:47:35Z",
-          "updatedAt": "2026-06-21T06:48:15Z",
-          "url": "https://github.com/RachGranville/superteam-agent-bounties-20260621",
-          "topics": []
-        },
-        {
-          "name": "zhaoxiaoha/github-trending",
-          "description": null,
-          "stars": 0,
-          "forks": 2,
-          "createdAt": "2023-12-17T13:48:41Z",
-          "updatedAt": "2026-06-21T06:46:43Z",
-          "url": "https://github.com/zhaoxiaoha/github-trending",
-          "topics": []
-        },
-        {
-          "name": "Haustorium12/gold-402",
-          "description": "⚡ The gold standard for x402 resources. 300+ projects, SDKs, tools, facilitators, and ecosystem data for the HTTP 402 Payment Required protocol. Curated by 24K Labs.",
-          "stars": 3,
-          "forks": 6,
-          "createdAt": "2026-03-31T19:16:10Z",
-          "updatedAt": "2026-06-21T06:46:24Z",
-          "url": "https://github.com/Haustorium12/gold-402",
-          "topics": [
-            "ai-agents",
-            "api-monetization",
-            "awesome-list",
-            "base",
-            "blockchain",
-            "coinbase",
-            "crypto",
-            "http-402",
-            "mcp",
-            "micropayments",
-            "usdc",
-            "web3",
-            "x402"
-          ]
         }
       ],
       "buildIdeas": [
@@ -179,15 +183,25 @@
     {
       "id": "trading-automation",
       "title": "Trading automation for retail power users",
-      "score": 87.21,
+      "score": 85.23,
       "whyItMatters": "Retail traders increasingly need real-time interpretation of social, wallet, and liquidity signals.",
       "signals": {
-        "repoCount": 15,
-        "starSample": 18735,
+        "repoCount": 14,
+        "starSample": 18737,
         "averageFreshnessDays": 0.5,
-        "networkTps": 2715
+        "networkTps": 2703
       },
       "evidence": [
+        {
+          "name": "Rodert/awesome-mcp",
+          "description": "A curated list of MCP servers and related resources.",
+          "stars": 9,
+          "forks": 10,
+          "createdAt": "2025-11-22T02:26:01Z",
+          "updatedAt": "2026-06-21T06:58:15Z",
+          "url": "https://github.com/Rodert/awesome-mcp",
+          "topics": []
+        },
         {
           "name": "chainlesschain/chainlesschain",
           "description": null,
@@ -304,21 +318,6 @@
             "plugins",
             "skills"
           ]
-        },
-        {
-          "name": "gunjanjaswal/Awesome-Public-Free-Apis",
-          "description": "🌐 Awesome Public APIs: A self-updating collection of free APIs for developers. Automatically discovers and tracks popular APIs across 40+ categories. Features verified endpoints, comprehensive details (auth, CORS, HTTPS), and community contributions. Star to stay updated!",
-          "stars": 7,
-          "forks": 2,
-          "createdAt": "2025-09-07T12:11:20Z",
-          "updatedAt": "2026-06-21T06:23:41Z",
-          "url": "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
-          "topics": [
-            "api",
-            "api-rest",
-            "free",
-            "freeapi"
-          ]
         }
       ],
       "buildIdeas": [
@@ -330,15 +329,25 @@
     {
       "id": "depin-compute",
       "title": "DePIN compute at the edge",
-      "score": 79.83,
+      "score": 79.87,
       "whyItMatters": "Solana's low fees make frequent reward settlement plausible for small compute contributions.",
       "signals": {
         "repoCount": 16,
-        "starSample": 312,
+        "starSample": 321,
         "averageFreshnessDays": 0.1,
-        "networkTps": 2715
+        "networkTps": 2703
       },
       "evidence": [
+        {
+          "name": "RachGranville/superteam-agent-bounties-20260621",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-21T06:47:35Z",
+          "updatedAt": "2026-06-21T06:55:54Z",
+          "url": "https://github.com/RachGranville/superteam-agent-bounties-20260621",
+          "topics": []
+        },
         {
           "name": "airtkey/airtkey",
           "description": null,
@@ -347,16 +356,6 @@
           "createdAt": "2026-06-20T08:30:25Z",
           "updatedAt": "2026-06-21T06:52:15Z",
           "url": "https://github.com/airtkey/airtkey",
-          "topics": []
-        },
-        {
-          "name": "RachGranville/superteam-agent-bounties-20260621",
-          "description": null,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-06-21T06:47:35Z",
-          "updatedAt": "2026-06-21T06:48:15Z",
-          "url": "https://github.com/RachGranville/superteam-agent-bounties-20260621",
           "topics": []
         },
         {
@@ -429,15 +428,25 @@
     {
       "id": "zk-privacy",
       "title": "ZK privacy and private execution",
-      "score": 74.58,
+      "score": 76.77,
       "whyItMatters": "High-throughput DeFi increases the need for selective disclosure, private order flow, and verifiable computation.",
       "signals": {
-        "repoCount": 15,
-        "starSample": 91,
+        "repoCount": 16,
+        "starSample": 101,
         "averageFreshnessDays": 0,
-        "networkTps": 2715
+        "networkTps": 2703
       },
       "evidence": [
+        {
+          "name": "Rodert/awesome-mcp",
+          "description": "A curated list of MCP servers and related resources.",
+          "stars": 9,
+          "forks": 10,
+          "createdAt": "2025-11-22T02:26:01Z",
+          "updatedAt": "2026-06-21T06:58:15Z",
+          "url": "https://github.com/Rodert/awesome-mcp",
+          "topics": []
+        },
         {
           "name": "sip-protocol/sip-protocol",
           "description": "Shielded Intents Protocol - The Privacy Standard for Web3",
@@ -557,16 +566,6 @@
             "web-component",
             "webgl"
           ]
-        },
-        {
-          "name": "sip-protocol/sip-arcium-program",
-          "description": "Arcium MPC program for SIP Protocol - Confidential transfers, balance checks, and swap validation",
-          "stars": 2,
-          "forks": 0,
-          "createdAt": "2026-01-29T02:04:17Z",
-          "updatedAt": "2026-06-21T06:31:26Z",
-          "url": "https://github.com/sip-protocol/sip-arcium-program",
-          "topics": []
         }
       ],
       "buildIdeas": [
@@ -578,13 +577,13 @@
     {
       "id": "token-extensions",
       "title": "Token-2022 and programmable asset primitives",
-      "score": 62.52,
+      "score": 63.03,
       "whyItMatters": "Token extensions move compliance, royalties, transfer logic, and metadata closer to asset infrastructure.",
       "signals": {
         "repoCount": 10,
-        "starSample": 40,
+        "starSample": 49,
         "averageFreshnessDays": 0.7,
-        "networkTps": 2715
+        "networkTps": 2703
       },
       "evidence": [
         {
@@ -593,7 +592,7 @@
           "stars": 10,
           "forks": 1,
           "createdAt": "2025-01-01T00:00:00Z",
-          "updatedAt": "2026-06-21T06:55:41.298Z",
+          "updatedAt": "2026-06-21T06:58:43.767Z",
           "url": "https://github.com/solana-program/token-2022",
           "topics": [
             "solana"
@@ -605,11 +604,21 @@
           "stars": 9,
           "forks": 1,
           "createdAt": "2025-01-01T00:00:00Z",
-          "updatedAt": "2026-06-14T06:55:41.298Z",
+          "updatedAt": "2026-06-14T06:58:43.767Z",
           "url": "https://github.com/solana-labs/solana-program-library",
           "topics": [
             "solana"
           ]
+        },
+        {
+          "name": "Rodert/awesome-mcp",
+          "description": "A curated list of MCP servers and related resources.",
+          "stars": 9,
+          "forks": 10,
+          "createdAt": "2025-11-22T02:26:01Z",
+          "updatedAt": "2026-06-21T06:58:15Z",
+          "url": "https://github.com/Rodert/awesome-mcp",
+          "topics": []
         },
         {
           "name": "magicalinternetdotmoney/magicalinternetdotmoney",
@@ -660,16 +669,6 @@
           "updatedAt": "2026-06-21T06:51:57Z",
           "url": "https://github.com/ZonghaoLi777/githubTrending",
           "topics": []
-        },
-        {
-          "name": "janmejaisingh4/YieldMind---Capstone-Project",
-          "description": null,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-06-21T06:44:38Z",
-          "updatedAt": "2026-06-21T06:50:02Z",
-          "url": "https://github.com/janmejaisingh4/YieldMind---Capstone-Project",
-          "topics": []
         }
       ],
       "buildIdeas": [
@@ -682,17 +681,17 @@
   "summary": [
     {
       "title": "Agent-native commerce and autonomous wallets",
-      "score": 87.31,
+      "score": 85.33,
       "firstIdea": "An agent wallet policy engine that caps daily spend, allowed programs, and memo metadata for autonomous tasks."
     },
     {
       "title": "Trading automation for retail power users",
-      "score": 87.21,
+      "score": 85.23,
       "firstIdea": "A safety-first copy-trading rule builder that rejects thin-liquidity or high-tax token routes."
     },
     {
       "title": "DePIN compute at the edge",
-      "score": 79.83,
+      "score": 79.87,
       "firstIdea": "A mobile compute contribution receipt protocol with batched Solana settlement."
     }
   ]

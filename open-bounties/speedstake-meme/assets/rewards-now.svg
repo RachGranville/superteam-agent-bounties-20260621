@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Speedstake rewards now meme</title>
+  <desc id="desc">A split-panel meme about getting future SOL rewards today while principal stays staked.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#05070b"/>
+    </linearGradient>
+    <linearGradient id="sol" x1="0" x2="1">
+      <stop offset="0" stop-color="#41f0a8"/>
+      <stop offset="1" stop-color="#8f7cff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <text x="80" y="110" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Future staking rewards?</text>
+  <text x="80" y="164" fill="#a9b4c5" font-family="Inter, Arial, sans-serif" font-size="30">I can wait months. I am disciplined.</text>
+
+  <rect x="80" y="220" width="1040" height="340" rx="28" fill="#111827" stroke="#2d3a4f" filter="url(#shadow)"/>
+  <text x="122" y="292" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">Before Speedstake</text>
+  <rect x="130" y="340" width="780" height="58" rx="14" fill="#1c2636"/>
+  <rect x="130" y="424" width="610" height="58" rx="14" fill="#1c2636"/>
+  <text x="150" y="379" fill="#a9b4c5" font-family="Inter, Arial, sans-serif" font-size="27">wait epoch by epoch</text>
+  <text x="150" y="463" fill="#a9b4c5" font-family="Inter, Arial, sans-serif" font-size="27">stare at tiny rewards</text>
+  <text x="940" y="438" fill="#f6c35c" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">...</text>
+
+  <rect x="80" y="620" width="1040" height="420" rx="28" fill="#111827" stroke="#2d3a4f" filter="url(#shadow)"/>
+  <text x="122" y="692" fill="#41f0a8" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="900">After Speedstake</text>
+  <circle cx="240" cy="830" r="92" fill="url(#sol)"/>
+  <text x="178" y="852" fill="#07100d" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">SOL</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="31" font-weight="800" fill="#f8fafc">
+    <text x="380" y="782">future rewards arrive today</text>
+    <text x="380" y="842">principal stays staked</text>
+    <text x="380" y="902">spreadsheet confidence increases 900%</text>
+  </g>
+  <text x="122" y="986" fill="#a9b4c5" font-family="Inter, Arial, sans-serif" font-size="25">Not financial advice. It is mostly a cry for help from my budgeting tab.</text>
+</svg>
+

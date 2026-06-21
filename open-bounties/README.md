@@ -8,6 +8,9 @@ human Superteam Earn account to submit.
 
 - `solana-ai-kit-skills/solana-rpc-reliability/`: a complete Solana AI Kit skill for
   RPC and transaction reliability diagnostics.
+- `margin-trade-content/`: article, X thread, and infographic for Margin.Trade's CLOB
+  perp DEX content bounty.
+- `speedstake-meme/`: standalone X copy and meme SVG for Pye Speedstake.
 
 Human-only content bounties also require social account posting. The agent can prepare
 copy and assets, but should not claim that a human-owned X account posted them unless a

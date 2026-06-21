@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Margin.Trade CLOB and Cross-Margin Infographic</title>
+  <desc id="desc">A visual explaining order book execution, one USDC margin account, mark-price liquidations, and onchain ADL.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#090d13"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#08111f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#41f0a8"/>
+      <stop offset="1" stop-color="#8f7cff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="80" y="64" width="1440" height="772" rx="28" fill="#111827" stroke="#263244" filter="url(#shadow)"/>
+  <text x="128" y="142" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">Margin.Trade is market structure</text>
+  <text x="130" y="194" fill="#a9b4c5" font-family="Inter, Arial, sans-serif" font-size="25">CLOB perps, one cross-margin account, mark-price liquidations, onchain ADL</text>
+
+  <g transform="translate(128 270)">
+    <rect width="380" height="420" rx="18" fill="#0c1320" stroke="#2d3a4f"/>
+    <text x="28" y="54" fill="#41f0a8" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">CLOB execution</text>
+    <rect x="38" y="92" width="136" height="44" rx="8" fill="#143627"/>
+    <rect x="206" y="92" width="136" height="44" rx="8" fill="#3a1721"/>
+    <text x="74" y="122" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Bids</text>
+    <text x="244" y="122" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Asks</text>
+    <g fill="#1d2a3b">
+      <rect x="38" y="160" width="136" height="28" rx="6"/>
+      <rect x="38" y="202" width="110" height="28" rx="6"/>
+      <rect x="38" y="244" width="150" height="28" rx="6"/>
+      <rect x="206" y="160" width="98" height="28" rx="6"/>
+      <rect x="206" y="202" width="136" height="28" rx="6"/>
+      <rect x="206" y="244" width="118" height="28" rx="6"/>
+    </g>
+    <text x="38" y="334" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Traders see spreads, depth, and resting liquidity.</text>
+  </g>
+
+  <g transform="translate(610 270)">
+    <rect width="380" height="420" rx="18" fill="#0c1320" stroke="#2d3a4f"/>
+    <text x="28" y="54" fill="#8f7cff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">One USDC margin pool</text>
+    <circle cx="190" cy="178" r="78" fill="none" stroke="url(#accent)" stroke-width="16"/>
+    <text x="138" y="188" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="800">USDC</text>
+    <g fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">
+      <text x="42" y="300">SOL perp</text>
+      <text x="238" y="300">BTC perp</text>
+      <text x="42" y="348">NVDA</text>
+      <text x="238" y="348">Gold</text>
+    </g>
+    <path d="M155 250 C90 260 80 282 82 292" fill="none" stroke="#41f0a8" stroke-width="4"/>
+    <path d="M225 250 C294 260 306 282 304 292" fill="none" stroke="#41f0a8" stroke-width="4"/>
+    <path d="M170 252 C118 292 110 322 110 338" fill="none" stroke="#8f7cff" stroke-width="4"/>
+    <path d="M210 252 C262 292 272 322 272 338" fill="none" stroke="#8f7cff" stroke-width="4"/>
+  </g>
+
+  <g transform="translate(1092 270)">
+    <rect width="380" height="420" rx="18" fill="#0c1320" stroke="#2d3a4f"/>
+    <text x="28" y="54" fill="#f6c35c" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Risk engine you can inspect</text>
+    <path d="M58 170 C120 92 190 232 260 142 C302 88 326 124 342 150" fill="none" stroke="#8f7cff" stroke-width="8"/>
+    <line x1="48" y1="214" x2="342" y2="214" stroke="#41f0a8" stroke-width="5" stroke-dasharray="12 10"/>
+    <text x="58" y="250" fill="#a9b4c5" font-family="Inter, Arial, sans-serif" font-size="22">Mark price liquidations</text>
+    <rect x="48" y="296" width="284" height="56" rx="10" fill="#18243a" stroke="#2d3a4f"/>
+    <text x="72" y="332" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Liquidation → Backstop → ADL</text>
+  </g>
+
+  <text x="128" y="770" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">The pitch is not "more leverage." The pitch is transparent 24/7 market structure on Solana.</text>
+  <text x="128" y="814" fill="#a9b4c5" font-family="Inter, Arial, sans-serif" font-size="22">@margin_trade content concept by rachel-codex-agent</text>
+</svg>
+
